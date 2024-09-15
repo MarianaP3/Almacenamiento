@@ -1,0 +1,26 @@
+C:\Users\maria\source\repos\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.csproj.AssemblyReference.cache
+C:\Users\maria\source\repos\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Proveedor.resources
+C:\Users\maria\source\repos\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Properties.Resources.resources
+C:\Users\maria\source\repos\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.csproj.GenerateResource.cache
+C:\Users\maria\source\repos\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.csproj.CoreCompileInputs.cache
+C:\Users\maria\source\repos\ProyectoAlmacenamiento\ProyectoAlmacenamiento\bin\Debug\ProyectoAlmacenamiento.exe.config
+C:\Users\maria\source\repos\ProyectoAlmacenamiento\ProyectoAlmacenamiento\bin\Debug\ProyectoAlmacenamiento.exe
+C:\Users\maria\source\repos\ProyectoAlmacenamiento\ProyectoAlmacenamiento\bin\Debug\ProyectoAlmacenamiento.pdb
+C:\Users\maria\source\repos\ProyectoAlmacenamiento\ProyectoAlmacenamiento\bin\Debug\System.Data.SqlClient.dll
+C:\Users\maria\source\repos\ProyectoAlmacenamiento\ProyectoAlmacenamiento\bin\Debug\System.Data.SqlClient.xml
+C:\Users\maria\source\repos\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\Proyecto.F64B2A98.Up2Date
+C:\Users\maria\source\repos\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.exe
+C:\Users\maria\source\repos\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.pdb
+C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\bin\Debug\ProyectoAlmacenamiento.exe.config
+C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\bin\Debug\ProyectoAlmacenamiento.exe
+C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\bin\Debug\ProyectoAlmacenamiento.pdb
+C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\bin\Debug\System.Data.SqlClient.dll
+C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\bin\Debug\System.Data.SqlClient.xml
+C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.csproj.AssemblyReference.cache
+C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Proveedor.resources
+C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Properties.Resources.resources
+C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.csproj.GenerateResource.cache
+C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.csproj.CoreCompileInputs.cache
+C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\Proyecto.F64B2A98.Up2Date
+C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.exe
+C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.pdb
