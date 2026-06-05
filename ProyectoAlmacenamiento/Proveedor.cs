@@ -9,19 +9,22 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using System.Data.SqlClient;
+using ProyectoAlmacenamiento.DBController;
 
 namespace ProyectoAlmacenamiento
 {
 
     public partial class Proveedor : Form
     {
-        SqlConnection nuevaConexion = new SqlConnection("Server = MARIANAPC\\SQLEXPRESS; " +
-            "DATABASE = Almacenamiento; integrated security=true");
+        SqlConnection nuevaConexion = Conexion.GetConnection();
+
         string IdProveedor = "";
         string nombre_proveedor = "";
         string telefono_proveedor = "";
         string correo_proveedor = "";
         string domicilio_fiscal_proveedor = "";
+        String telefono = "";
+        String correo = "";
         public Proveedor()
         {
             InitializeComponent();
@@ -42,7 +45,7 @@ namespace ProyectoAlmacenamiento
                 TablaProveedor.Columns.Add("Nombre_proveedor", "Nombre");
                 TablaProveedor.Columns.Add("Telefono_proveedor", "Teléfono");
                 TablaProveedor.Columns.Add("Correo_proveedor", "Correo");
-                TablaProveedor.Columns.Add("Domicilio_fiscal_proveedor", "Domicilio");
+                TablaProveedor.Columns.Add("Domicilio_fiscal_proveedor", "Domicilio Fiscal");
             }
 
             TablaProveedor.Rows.Clear();
@@ -70,15 +73,26 @@ namespace ProyectoAlmacenamiento
             correo_proveedor = textCorreo_Proveedor.Text;
             domicilio_fiscal_proveedor = textDomicilio_Proveedor.Text;
 
-
             nuevaConexion.Open();
 
-            string insertInfo = "INSERT INTO almacen.Proveedor(NombreProveedor, " +
+            // Verificar si el correo ya existe
+            if (CorreoExiste(correo_proveedor, nuevaConexion))
+            {
+                MessageBox.Show("El correo ya está registrado.");
+            }
+            else if (TelefonoExiste(telefono_proveedor, nuevaConexion)) // Verificar si el teléfono ya existe
+            {
+                MessageBox.Show("El teléfono ya está registrado.");
+            }
+            else
+            {
+                string insertInfo = "INSERT INTO almacen.Proveedor(NombreProveedor, " +
                 "TelefonoProveedor, CorreoProveedor, DomicilioFiscal) VALUES ('" + nombre_proveedor + "'," +
-         "'" + telefono_proveedor + "','" + correo_proveedor + "' , '" + domicilio_fiscal_proveedor + "' )";
+                "'" + telefono_proveedor + "','" + correo_proveedor + "' , '" + domicilio_fiscal_proveedor + "' )";
 
-            SqlCommand cm = new SqlCommand(insertInfo, nuevaConexion);
-            cm.ExecuteNonQuery();
+                SqlCommand cm = new SqlCommand(insertInfo, nuevaConexion);
+                cm.ExecuteNonQuery();
+            }
 
             nombre_proveedor = "";
             telefono_proveedor = "";
@@ -88,7 +102,51 @@ namespace ProyectoAlmacenamiento
             nuevaConexion.Close();
         }
 
-        private void ModificarDato()
+        // Función para verificar si el correo ya existe en la base de datos
+        public bool CorreoExiste(string correo, SqlConnection conexion)
+        {
+            string query = "SELECT COUNT(1) FROM almacen.Proveedor WHERE CorreoProveedor = @Correo";
+
+            using (SqlCommand command = new SqlCommand(query, conexion))
+            {
+                command.Parameters.AddWithValue("@Correo", correo);
+
+                try
+                {
+                    int count = (int)command.ExecuteScalar();
+                    return count > 0; // Si el resultado es mayor a 0, significa que ya existe
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show("Error al verificar el correo: " + ex.Message);
+                    return false;
+                }
+            }
+        }
+
+        // Función para verificar si el teléfono ya existe en la base de datos
+        public bool TelefonoExiste(string telefono, SqlConnection conexion)
+        {
+            string query = "SELECT COUNT(1) FROM almacen.Proveedor WHERE TelefonoProveedor = @Telefono";
+
+            using (SqlCommand command = new SqlCommand(query, conexion))
+            {
+                command.Parameters.AddWithValue("@Telefono", telefono);
+
+                try
+                {
+                    int count = (int)command.ExecuteScalar();
+                    return count > 0; // Si el resultado es mayor a 0, significa que ya existe
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show("Error al verificar el teléfono: " + ex.Message);
+                    return false;
+                }
+            }
+        }
+
+        private void ModificarDato(String telefono, String correo)
         {
             nombre_proveedor = textNombre_Proveedor.Text;
             telefono_proveedor = textTelefono_Proveedor.Text;
@@ -97,11 +155,32 @@ namespace ProyectoAlmacenamiento
 
             nuevaConexion.Open();
 
-            string insertInfo = "UPDATE almacen.Proveedor SET NombreProveedor = '" + nombre_proveedor + "', TelefonoProveedor = '" +
+            // que cheque que se modificó
+
+            bool modificoCorreo = correo.Equals(correo_proveedor);
+            bool modificoTelefono = telefono.Equals(telefono_proveedor);
+
+            if (CorreoExiste(correo_proveedor, nuevaConexion) && !modificoCorreo)
+            {
+                MessageBox.Show("El correo ya está registrado.");
+            }
+            else if (TelefonoExiste(telefono_proveedor, nuevaConexion) && !modificoTelefono) // Verificar si el teléfono ya existe
+            {
+                MessageBox.Show("El teléfono ya está registrado.");
+            }
+            else
+            {
+                string insertInfo = "UPDATE almacen.Proveedor SET NombreProveedor = '" + nombre_proveedor + "', TelefonoProveedor = '" +
                  telefono_proveedor + "', CorreoProveedor = '" + correo_proveedor + "', DomicilioFiscal = '" + domicilio_fiscal_proveedor + "' WHERE IdProveedor = '" + IdProveedor + "'";
 
-            SqlCommand cm = new SqlCommand(insertInfo, nuevaConexion);
-            cm.ExecuteNonQuery();
+                SqlCommand cm = new SqlCommand(insertInfo, nuevaConexion);
+                cm.ExecuteNonQuery();
+            }
+
+            nombre_proveedor = "";
+            telefono_proveedor = "";
+            correo_proveedor = "";
+            domicilio_fiscal_proveedor = "";
 
             nuevaConexion.Close();
 
@@ -141,7 +220,8 @@ namespace ProyectoAlmacenamiento
 
         private void botonClickModificar_Click(object sender, EventArgs e)
         {
-            ModificarDato();
+            
+            ModificarDato(telefono, correo);
             ConsultaDatos();
             IdProveedor = "";
             textNombre_Proveedor.Clear();
@@ -164,15 +244,17 @@ namespace ProyectoAlmacenamiento
         {
             if (e.RowIndex >= 0)
             {
-                // Obtén la fila seleccionada
+                // Obtén la marca seleccionada
                 DataGridViewRow filaSeleccionada = TablaProveedor.Rows[e.RowIndex];
 
-                // Obtén el valor de una celda específica (por ejemplo, la primera columna)
+                // Obtén el valor de una celda específica (por ejemplo, la primera transporte)
                 IdProveedor = filaSeleccionada.Cells[0].Value.ToString();
                 textNombre_Proveedor.Text = filaSeleccionada.Cells[1].Value.ToString();
                 textTelefono_Proveedor.Text = filaSeleccionada.Cells[2].Value.ToString();
                 textCorreo_Proveedor.Text = filaSeleccionada.Cells[3].Value.ToString();
                 textDomicilio_Proveedor.Text = filaSeleccionada.Cells[4].Value.ToString();
+                telefono = filaSeleccionada.Cells[2].Value.ToString();
+                correo = filaSeleccionada.Cells[3].Value.ToString();
 
             }
         }

@@ -49,16 +49,107 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AlmacenamientoProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AlmacenamientoProducto.Designer.cs">
+      <DependentUpon>AlmacenamientoProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Anaquel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anaquel.Designer.cs">
+      <DependentUpon>Anaquel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBController\Conexion.cs" />
+    <Compile Include="DetalleEntrega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleEntrega.Designer.cs">
+      <DependentUpon>DetalleEntrega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DomicilioCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DomicilioCliente.Designer.cs">
+      <DependentUpon>DomicilioCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entrega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entrega.Designer.cs">
+      <DependentUpon>Entrega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu del Proyecto almacenamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu del Proyecto almacenamiento.Designer.cs">
+      <DependentUpon>Menu del Proyecto almacenamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Producto.Designer.cs">
+      <DependentUpon>Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ruta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ruta.Designer.cs">
+      <DependentUpon>Ruta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transporte.Designer.cs">
+      <DependentUpon>Transporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedor.Designer.cs">
+      <DependentUpon>Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente.Designer.cs">
+      <DependentUpon>Cliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Transportista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transportista.Designer.cs">
+      <DependentUpon>Transportista.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AlmacenamientoProducto.resx">
+      <DependentUpon>AlmacenamientoProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Anaquel.resx">
+      <DependentUpon>Anaquel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetalleEntrega.resx">
+      <DependentUpon>DetalleEntrega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DomicilioCliente.resx">
+      <DependentUpon>DomicilioCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entrega.resx">
+      <DependentUpon>Entrega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu del Proyecto almacenamiento.resx">
+      <DependentUpon>Menu del Proyecto almacenamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Producto.resx">
+      <DependentUpon>Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedor.resx">
+      <DependentUpon>Proveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -69,6 +160,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Ruta.resx">
+      <DependentUpon>Ruta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transporte.resx">
+      <DependentUpon>Transporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transportista.resx">
+      <DependentUpon>Transportista.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -14,9 +14,11 @@ namespace ProyectoAlmacenamiento
         [STAThread]
         static void Main()
         {
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Proveedor());
+          
+            Application.Run(new Menu_del_almacenamiento());
         }
     }
 }

@@ -24,3 +24,27 @@ C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de dato
 C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\Proyecto.F64B2A98.Up2Date
 C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.exe
 C:\Users\maria\OneDrive\Documentos\7mo semestre\Administración de bases de datos\Proyecto\Almacenamiento\ProyectoAlmacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.pdb
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\bin\Debug\ProyectoAlmacenamiento.exe.config
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\bin\Debug\ProyectoAlmacenamiento.exe
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\bin\Debug\ProyectoAlmacenamiento.pdb
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.csproj.AssemblyReference.cache
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Anaquel.resources
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Cliente.resources
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.DomicilioCliente.resources
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Menu_del_almacenamiento.resources
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Producto.resources
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Proveedor.resources
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Properties.Resources.resources
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Ruta.resources
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Transporte.resources
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Transportista.resources
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.csproj.GenerateResource.cache
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.csproj.CoreCompileInputs.cache
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\Proyecto.F64B2A98.Up2Date
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.exe
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.pdb
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.AlmacenamientoProducto.resources
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.DetalleEntrega.resources
+C:\Users\Bryan\Documents\BD\BD proyecto\Proyecto real\Almacenamiento\ProyectoAlmacenamiento\obj\Debug\ProyectoAlmacenamiento.Entrega.resources
